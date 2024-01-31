@@ -29,6 +29,6 @@ def make_messages():
     db.session.add_all(messages)
     db.session.commit()        
 
-if __name__ == '__main__':
+if _name_ == '_main_':
     with app.app_context():
         make_messages()
